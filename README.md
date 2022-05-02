@@ -1,2 +1,2 @@
-# SOC_IOCs
+# SOC IOCs
 Repositorio de Indicadores de Compromiso
