@@ -1,1 +1,10 @@
-
+ET MALWARE Observed Malicious SSL Cert (Fake Gmail Self Signed - Possible Cobalt Stirke)
+ET POLICY SMB2 NT Create AndX Request For an Executable File In a Temp Directory
+ET MALWARE Win32/IcedID Request Cookie
+ET POLICY PE EXE or DLL Windows file download HTTP
+ET POLICY PsExec service created
+ET RPC DCERPC SVCCTL - Remote Service Control Manager Access
+ET POLICY SMB2 NT Create AndX Request For an Executable File
+ET DNS Query to a *.top domain - Likely Hostile
+ET INFO HTTP Request to a *.top domain
+ET POLICY SMB Executable File Transfer
