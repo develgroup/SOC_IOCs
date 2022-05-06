@@ -1,0 +1,17 @@
+psexec
+7zip.exe
+ac.exe
+%SYSTEMROOT%\winlo.exe
+gmer.exe
+Bk74AE.tmp/PCHunter64.exe
+c:\Users\Public\Music\lapress_32.exe
+%SYSTEMROOT%\Temp\xxx.exe
+791251-1632642588.exe
+C:\ProgramData\nds.dll/nds.dll
+linux
+xxx.000
+windows.exe
+mmm.exe
+zzz.exe
+xxx.exe
+main.py
