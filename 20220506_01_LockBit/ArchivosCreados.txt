@@ -1,0 +1,3 @@
+C:\Users\<Username>\Desktop\LockBit_Ransomware.hta - LockBit 2.0 hta File
+C:\Windows\SysWOW64\<First 6 characters of Decryption ID>.ico - LockBit 2.0 Icon
+C:\Users\<username>\AppData\Local\Temp\<LockBit 2.0 wallpaper> .tmp.bmp - LockBit 2.0 Wallpaper
