@@ -1,0 +1,14 @@
+[General] 
+Version=%s 
+displayName=%s 
+[Software\Policies\Microsoft\Windows Defender;DisableAntiSpyware] 
+[Software\Policies\Microsoft\Windows Defender\Real-Time 
+Protection;DisableRealtimeMonitoring] 
+[Software\Policies\Microsoft\Windows Defender\Spynet;SubmitSamplesConsent] 
+[Software\Policies\Microsoft\Windows 
+Defender\Threats;Threats_ThreatSeverityDefaultAction] 
+[Software\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction] 
+[Software\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction] 
+[Software\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction] 
+[Software\Policies\Microsoft\Windows Defender\Threats\ThreatSeverityDefaultAction] 
+[Software\Policies\Microsoft\Windows Defender\UX Configuration;Notification_Suppress
