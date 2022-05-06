@@ -1,0 +1,19 @@
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows NT\CurrentVersion\ICM\Calibration 
+Data: <LockBit 2.0 Ransomware path> 
+
+Key: HKEY_CLASSES_ROOT\Lockbit\shell\Open\Command 
+Data: "C:\Windows\system32\mshta.exe" "C:\Users\<username>\Desktop\LockBit_Ransomware.hta"
+
+Key: HKEY_CURENT_USER\Software\Microsoft\Windows\CurrentVersion\Run\{GUID} 
+Data: C:\Users\<Username>\Desktop\LockBit_Ransomware.hta 
+Data: <LockBit 2.0 Ransomware path>
+
+Key: HKEY_CURRENT_USER\Software\< LockBit 2.0 ID >\Private 
+Key: HKEY_CURRENT_USER\Software\< LockBit 2.0 ID >\Public 
+Created - LockBit 2.0 Icon Location 
+Key: HKEY_LOCAL_MACHINE\Software\Classes\.lockbit\DefaultIcon 
+
+KEY: HKEY_CURRENT_USER\Control Panel\Desktop 
+String Value: %APPDATA%\Local\Temp\<LockBit 2.0 wallpaper>.tmp.bmp 
+String Value: TitleWallpaper=0 
+String Value: WallpaperStyle = 2
