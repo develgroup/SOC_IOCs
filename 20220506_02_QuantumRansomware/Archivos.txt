@@ -1,0 +1,8 @@
+docs_invoice_173.iso
+dar.dll
+document.lnk
+adf.bat 
+Ulfefi32.dll 
+license.dat
+ttsel.exe 
+p227.dll 
