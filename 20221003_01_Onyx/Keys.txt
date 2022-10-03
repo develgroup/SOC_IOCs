@@ -1,0 +1,3 @@
+description	           ioc	                                                                                                    process
+Key value queried	    \REGISTRY\USER\S-1-5-21-3751123196-3323558407-1869646069-1000\Control Panel\International\Geo\Nation	    a7f09cfde433f3d47fc96502bf2b623ae5e7626da85d0a0130dcd19d1679af9b.exe
+Key value queried	    \REGISTRY\USER\S-1-5-21-3751123196-3323558407-1869646069-1000\Control Panel\International\Geo\Nation	    svchost.exe
