@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NTServices clsid="{2CFB484A-4E96-4b5d-A0B6-093D2F91E6AE}">
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLPBDMS" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLPBDMS" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLPBENGINE" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLPBENGINE" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="MSSQLFDLauncher" image="4" changed="%s" uid="%s" userContext="0" removePolicy="0" disabled="0">
+<Properties startupType="DISABLED" serviceName="MSSQLFDLauncher" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLSERVERAGENT" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLSERVERAGENT" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="MSSQLServerOLAPService" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="MSSQLServerOLAPService" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SSASTELEMETRY" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SSASTELEMETRY" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLBrowser" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLBrowser" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQL Server Distributed Replay Client" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQL Server Distributed Replay Client" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQL Server Distributed Replay Controller" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQL Server Distributed Replay Controller" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="MsDtsServer150" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="MsDtsServer150" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SSISTELEMETRY150" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SSISTELEMETRY150" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SSISScaleOutMaster150" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SSISScaleOutMaster150" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SSISScaleOutWorker150" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SSISScaleOutWorker150" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="MSSQLLaunchpad" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="MSSQLLaunchpad" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLWriter" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLWriter" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="SQLTELEMETRY" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="SQLTELEMETRY" serviceAction="STOP" timeout="30"/>
+</NTService>
+<NTService clsid="{AB6F0B67-341F-4e51-92F9-005FBFBA1A43}"
+name="MSSQLSERVER" image="4" changed="%s" uid="%s" disabled="0">
+<Properties startupType="DISABLED" serviceName="MSSQLSERVER" serviceAction="STOP" timeout="60"/>
+</NTService>
+</NTServices>
