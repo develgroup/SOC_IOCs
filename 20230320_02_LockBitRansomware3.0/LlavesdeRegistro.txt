@@ -1,0 +1,94 @@
+Create - LockBit 3.0 Icon
+Key: HKCR\. <Malware Extension>
+String Value: (Default)
+Data: <Malware Extension>
+Key: HKCR\<Malware Extension>\DefaultIcon
+String Value: (Default)
+Data: C:\ProgramData\<Malware Extension>.ico
+
+Create: LockBit 3.0 Wallpaper
+Key: HKCU\Control Panel\Desktop\WallPaper
+Value: (Default)
+Data: C:\ProgramData\<Mal ware Extension>.bmp
+
+Create - Disable Privacy Settings Experience - LockBit 3.0
+Key: SOFTWARE\Policies\Microsoft\Windows\OOBE
+Value: DisablePrivacyExperience
+Data: 0
+
+Enable Automatic Logon - LockBit 3.0
+Key: SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Winlogon
+Value: AutoAdminLogon
+Data: 1
+Value: DefaultUserName
+Data: <username>
+Value: DefaultDomainName
+Data: <domain name>
+Value: DefaultPassword
+Data: <password>
+
+Disable and Clear Windows Event Logs - LockBit 3.0
+Key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\*
+Value: Enabled
+Data: 0
+Key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\* \ChannelAcces
+Value: ChannelAccess
+Data: AO:BAG:SYD:(A;;0x1;;;SY)(A;;0x5;;;BA)(A;;0x1;;;LA)
+
+La siguiente configuración del Registro cambia los valores para el tiempo de actualización de la directiva de grupo, deshabilita SmartScreen y deshabilita Windows Defender.
+Key:HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry Value: GroupPolicyRefreshTimeDC
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry Value:GroupPolicyRefreshTimeOffsetDC
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry GroupPolicyRefreshTime
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry GroupPolicyRefreshTimeOffse
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry EnableSmartScreen
+Value Type: REG_DWORD
+Data: 0
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+Registry **del.ShellSmartScreenLevel
+Value Type: REG_SZ
+Data: NULL
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender
+Registry: DisableAntiSpyware
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender
+Registry: DisableRoutinelyTakingAction
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection
+Registry: DisableRealtimeMonitoring
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection
+Registry: DisableBehaviorMonitoring
+Value Type: REG_DWORD
+Data: 1
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet
+Registry: SubmitSamplesConsent
+Value Type: REG_DWORD
+Data: 2
+Key: HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet
+Registry: SpynetReporting
+Value Type: REG_DWORD
+Data: 0
+Key: HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\DomainProfile
+Registry: EnableFirewall
+Value Type: REG_DWORD
+Data: 0
+Key: HKLM\SOFTWARE\Policies\Microsoft\WindowsFirewall\StandardProfile
+Registry: EnableFirewall
+Value Type: REG_DWORD
+Data: 0
