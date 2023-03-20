@@ -1,0 +1,8 @@
+-del Autoeliminación
+-gdel Quite los cambios en la directiva de grupo de LockBit 3.0.
+-gspd Difundir lateralmente a través de la directiva de grupo.
+-pass (32 character value) (Requerido) Contraseña utilizada para iniciar LockBit 3.0.
+-path (File or path) Solo cifra el archivo o carpeta proporcionados.
+-psex Spread lateralmente a través de recursos compartidos de administración.
+-safe Reinicie el host en modo seguro.
+-wall Establece LockBit 3.0 Wallpaper e imprime la nota de rescate de LockBit 3.0.
