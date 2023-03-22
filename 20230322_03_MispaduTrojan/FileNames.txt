@@ -1,0 +1,6 @@
+%AppData%\Roaming\herman\a3x\herndon\Factura_Deuda_423534.cmd
+%AppData%\Roaming\herman\exe\vayala\jordan.exe
+%AppData%\Roaming\herman\a3x\Factura_Deuda_423534.a3x
+%AppData%\Roaming\Microsoft\Windows\Menú Inicio\Programas\Inicio\DriverAudio.lnk
+%USUARIO%\Descargas\sastreria.xls.exe
+%PÚBLICO%\gnVzjGd.vbs
