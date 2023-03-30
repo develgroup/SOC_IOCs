@@ -1,0 +1,4 @@
+20230330_04_DarkPowerRansomware
+Trojan.GenericKD.65499855
+Trojan.GenericKD.65428966
+Ransomware-HMQ
