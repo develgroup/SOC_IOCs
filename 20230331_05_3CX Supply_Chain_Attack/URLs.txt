@@ -4,3 +4,12 @@ https:////visualstudiofactory.com/workload
 https:////azuredeploystore.com/cloud/services
 https:////msstorageboxes.com/office
 https:////officeaddons.com/technologies
+officeaddons.com/quality
+sourceslabs.com/status
+zacharryblogs.com/xmlquery
+pbxcloudeservices.com/network
+pbxphonenetwork.com/phone
+akamaitechcloudservices.com/v2/fileapi
+msedgepackageinfo.com/ms-webview
+glcloudservice.com/v1/status
+pbxsources.com/queue
