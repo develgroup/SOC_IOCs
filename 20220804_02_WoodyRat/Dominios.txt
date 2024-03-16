@@ -2,3 +2,4 @@ kurmakata.duckdns.org
 microsoft-ru-data.ru
 microsoft-telemetry.ru
 oakrussia.ru
+the.data
