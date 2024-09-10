@@ -1,0 +1,70 @@
+rule MAL_RansomHub_Windows {
+meta:
+author = "Insikt Group, Recorded Future"
+date = "2024-04-19"
+description = "Detects Windows variants of RansomHub Ransomware"
+version = "1.0"
+hash =
+"02e9f0fbb7f3acea4fcf155dc7813e15c1c8d1c77c3ae31252720a9fa7454292"
+RF_MALWARE = "RansomHub Ransomware"
+RF_THREATACTOR = "RansomHub Ransomware Group"
+RF_MALWARE_ID = "u7mVpi"
+RF_THREATACTOR_ID = "u7mVpk"
+strings:
+$j1 = "json:\"note_file_name\""
+$j2 = "json:\"note_full_text\""
+$j3 = "json:\"note_short_text\""
+$j4 = "json:\"master_public_key\""
+$s1 = "(*EncryptContext)"
+$s2 = "Go build"
+condition:
+uint16(0) == 0x5a4d and
+all of them
+}
+
+rule MAL_RansomHub_Linux {
+meta:
+author = "Insikt Group, Recorded Future"
+date = "2024-04-19"
+description = "Detects Linux variants of RansomHub Ransomware"
+version = "1.0"
+RF_MALWARE = "RansomHub Ransomware"
+RF_THREATACTOR = "RansomHub Ransomware Group"
+RF_MALWARE_ID = "u7mVpi"
+RF_THREATACTOR_ID = "u7mVpk"
+strings:
+$j1 = "json:\"note_file_name\""
+$j2 = "json:\"note_full_text\""
+$j3 = "json:\"note_short_text\""
+$j4 = "json:\"master_public_key\""
+$s1 = "(*EncryptContext)"
+$s2 = "Go build"
+condition:
+uint32(0) == 0x464c457f and // ELF header
+all of them
+}
+
+rule MAL_RansomHub_ESXi {
+meta:
+author = "Insikt Group, Recorded Future"
+date = "2024-04-22"
+description = "Detects ESXi variants of RansomHub Ransomware"
+version = "1.0"
+RF_MALWARE = "RansomHub Ransomware"
+RF_THREATACTOR = "RansomHub Ransomware Group"
+RF_MALWARE_ID = "u7mVpi"
+RF_THREATACTOR_ID = "u7mVpk"
+strings:
+$s1 = "master_public_key"
+$s2 = "/tmp/app.pid"
+$s3 = "/vmfs/volumes"
+$s4 = "-skip_vms"
+$s5 = "already running..."
+$s6 = "please wait for the single file encryption"
+$s7 = "%s.rbak"
+$s8 = "/etc/motd"
+$s9 = "self_delete"
+$s10 = "note_short_text"
+condition:
+uint32be(0) == 0x7f454c46 and all of ($s*)
+}
