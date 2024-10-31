@@ -357,4 +357,13 @@ Reg.exe
 Basta.Key
 AccessT1056.001
 Net.exe
-T1056.001
+the.text
+combase.dll
+pagefile.sys
+stdio.h
+ole32.dll
+windows.h
+kernelbase.dll
+msvcrt.dll
+v6.3
+
