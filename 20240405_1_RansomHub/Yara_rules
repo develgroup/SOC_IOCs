@@ -1,3 +1,4 @@
+
 rule MAL_RansomHub_Windows {
 meta:
 author = "Insikt Group, Recorded Future"
